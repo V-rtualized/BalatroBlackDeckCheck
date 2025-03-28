@@ -1,0 +1,20 @@
+{
+	"id": "BlackDeckCheck",
+	"name": "Black Deck Check",
+	"display_name": "Black Deck Check",
+	"author": [
+		"virtualized"
+	],
+	"description": "Reminds you that you have an extra joker slot while playing Black Deck.",
+	"prefix": "bdc",
+	"main_file": "core.lua",
+	"priority": 0,
+	"badge_colour": "636363",
+	"badge_text_colour": "FFFFFF",
+	"version": "1.0.0",
+	"dependencies": [
+		"Steamodded (>=1.*)",
+		"Lovely (>=0.6)",
+		"Balatro (>=1.*)"
+	]
+}
