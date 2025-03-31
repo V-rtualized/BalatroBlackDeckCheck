@@ -3,7 +3,6 @@ BDC = SMODS.current_mod
 BDC.warning_colour = SMODS.Gradients.warning_text
 
 function BDC.should_apply_warning(cardarea)
-	sendDebugMessage(G.GAME.selected_back.name)
 	if not G.GAME.selected_back then
 		return false
 	end
